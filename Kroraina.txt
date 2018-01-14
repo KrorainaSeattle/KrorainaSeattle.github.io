@@ -1,0 +1,2 @@
+hexo默认会把所有md文件都转换成html，包括README.md，所有需要每次生成之后、上传之前，
+手动将README.md复制到public目录，并删除README.html。
