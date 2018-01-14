@@ -2,3 +2,6 @@
 手动将README.md复制到public目录，并删除README.html。
 2.img url
 D:/KrorainaSeattle/hexo/themes/yilia/source/img/1.jpg
+3.uyan
+<% if (theme.uyan){ %><%- partial('post/uyan', {key: post.slug,title: post.title,url: config.url+url_for(post.path)}) %><% } %>
+uyan ID:2155105
